@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="help"><h3>This is {{ session['email'] }}'s profile page</h3></div>
+    <!--<h2>Profile<h2>-->
+   <div id='diary'>
+   <form action="{{ url_for('profile') }}" method=post enctype=multipart/form-data>
+         <input type=file name=file>
+         <input type=submit value=Upload>
+    </form>
+  	</div>
+{% endblock %}

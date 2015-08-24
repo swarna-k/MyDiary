@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="help">   
+  <h3>This is reminder page</h3>
+ 
+  
+   
+  {% for message in form.body.errors %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  
+  <div id = "list-of-entries">
+    {% for reminder in list %}
+      {% if reminder.when.date() == when %}
+        <ul>{{reminder.body}}  {{reminder.when.time()}}</ul>
+      {% endif %}   
+    {% endfor %}
+  </div> 
+
+  <form action="{{ url_for('reminder') }}" method=post>
+    <div id = "datereview">  
+    {{form1.month.label}}
+    {{form1.month}} 
+    {{form1.day.label}}
+    {{form1.day}}  
+    {{form1.year.label}}
+    {{form1.year}}
+
+    {{form1.submit}}
+    </div>
+  </form>  
+  <div id = "diary"> 
+  <form action="{{ url_for('reminder') }}" method=post>
+    {{ form.hidden_tag() }}
+  <div id = "date">  
+    {{form.month.label}}
+    {{form.month}} 
+    {{form.day.label}}
+    {{form.day}}  
+    {{form.year.label}}
+    {{form.year}}
+  </div>   
+  <div id ="time">
+    {{form.hour.label}}
+    {{form.hour}}  
+    {{form.minute.label}}
+    {{form.minute}}  
+    {{form.second.label}}
+    {{form.second}}  </ul>
+  </div>  
+    <div id="diary-label2">{{ form.body.label }}</div>
+    {{ form.body }}
+     
+    <div id="submit-button2">{{ form.submit }}</div>
+  </form>
+</div>
+  
+</div>
+
+{% endblock %}

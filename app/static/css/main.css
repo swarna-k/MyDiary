@@ -1,0 +1,106 @@
+body { font-family: Verdana, sans-serif; color: #444; width: 100%; margin: 0; padding: 0; background-color: #0000ff; background: url('images/background.jpg') no-repeat; background-size: 100%; background-position: center;}
+	 
+h1 { color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute;top:0px;}
+h2 { color: #fff; line-height: 60px; padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute;top:0px;left:30px;}
+#l1 {position: absolute;top:0px;left:150px;}
+#l2 {position: absolute;top:0px;left:250px;}
+#l3 {position: absolute;top:0px;left:350px;}
+#l4 {position: absolute;top:0px;right:100px;}
+#l5 {position: absolute;top:0px;right:0px;}
+.topmenu-bar{ background-color: #000034;width:100px;color: #fff; line-height: 60px; margin-right: 0px;  padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0;}
+.topmenu-bar:hover {background-color: #2eb9c7; transition-duration: 0.5s;}
+#help{position: absolute;top:0px;left:35%;}
+h3 { color:#fff; width:500px; font-weight: 200; color: #ffffff; position: absolute;top:50px;left:0px;}
+#sign-up {background-color: #000055; height: 500px; width: 500px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute;top:200px;right:33%;}
+#sign-in {background-color: #000055; height: 300px; width: 500px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute;top:200px;right:33%;}
+
+#top-bar {background-color: #000055; height: 60px; width: 100%; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:left; margin: 0 auto; z-index: 0; position: absolute;top:0px;}
+#menu-bar {background-color: #000000; height: 60px; width: 100px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:left; margin: 0 auto; z-index: 0; position: relative;top:30px;left:30px;}
+#signup-button {background-color:#000034; color: #44ffff; text-decoration: none; padding: 19px 20px; margin: 0; line-height: 60px; height: 60px; text-decoration: underline;}
+
+textarea{  width:600px;height:600px;padding:7px;  border-radius:5px; border:1px solid #cbcbcb; box-shadow:inset 0 1px 2px rgba(0,0,0,0.18); position:relative; top:100px; left:0%;}
+#textarea1{ width:40%; padding:7px; height:10%; border-radius:5px; border:1px solid #cbcbcb; box-shadow:inset 0 1px 2px rgba(0,0,0,0.18); position:relative; top:0px; left:40%;}
+#datereview{ background-color: #000034;width:300px;color: #fff; line-height: 60px; margin-right: 0px;  padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0;position: absolute;top:100px;right:200px;}
+#date{ background-color: #000034;width:300px;color: #fff; line-height: 60px; margin-right: 0px;  padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0;position: absolute;top:0px;right:300px;}
+#time{ background-color: #000034;width:300px;color: #fff; line-height: 60px; margin-right: 0px;  padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0;position: absolute;top:40px;right:300px;}
+#submit-button{width:100px;height:20px;position: absolute;top:10px;left:250px;}
+#submit-button2{width:100px;height:20px;position: absolute;top:40px;left:400px;}
+span{ float:left; margin-top:8px; font-size:17px; position: absolute;top: 200px;left:43%;}
+.three{ display:block; margin-left:-3px; margin-top:10px}	  
+/*main background*/
+/* Signup form */
+form input#firstname,
+form input#lastname,
+form input#entryname,
+form input#email{
+  width: 400px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 1.1em;
+}
+form input#password {
+  width: 400px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 1.1em;
+}
+ 
+form input#password {
+  margin-bottom: 10px;
+}
+#diary {background-color: #000055; height: 700px; width: 600px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute; top:100px; left:300px;}
+#diary-label1 {background-color: #000055; height: 50px; width: 100px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute; top:40px;left:-100px;}
+#diary-label2 {background-color: #000055; height: 50px; width: 100px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute; top:150px;left:-100px;}
+#list-of-entries {background-color: #000055; height: 600px; width: 600px; color: #fff; line-height: 60px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute; top:180px; right:-100px;}
+#reminder-label1 {background-color: #000055; height: 70px; width: 100px; color: #fff; line-height: 40px; margin-right: 0px; box-shadow: -20px 15px 7px rgba(0,0,0,0.2); padding-left: 0px; text-decoration: none; text-align:center; margin: 0 auto; z-index: 0; position: absolute; top:40px;left:-100px;}
+
+form input#name {
+  width: 600px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 1.1em;
+  position: absolute;
+  top:50px;
+  left:0px;
+}
+form input#when {
+  width: 600px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 1.1em;
+  position: absolute;
+  top:50px;
+  left:0px;
+}
+form input#body {
+  width: 600px;
+  height: 600px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  text-decoration: top left;
+  padding: 5px;
+  font-size: 1.1em;
+  position: absolute;
+  top:100px;
+  left:0px;
+}
+

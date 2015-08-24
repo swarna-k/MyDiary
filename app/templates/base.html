@@ -1,0 +1,35 @@
+<html>
+<html>
+  <head>
+    <title>MyDiary</title>
+    <link rel="stylesheet" href="/static/css/main.css" type="text/css">
+  </head>
+  <body>
+ 
+  <header>
+    <div id="top-bar">
+      <h1>MyDiary</h1>
+          
+          {% if 'email' in session %}
+          <a href="{{ url_for('profile') }}"><div id="l1" class="topmenu-bar">Profile</div></a>
+          <a href="{{ url_for('diary') }}"><div id="l2" class="topmenu-bar">Diary</div></a>
+          <a href="{{ url_for('reminder') }}"><div id="l3" class="topmenu-bar">Reminder</div></a>
+          <a href="{{ url_for('help') }}"><div id="l4" class="topmenu-bar">Help</div></a>
+          <a href="{{ url_for('signout') }}"><div id="l5" class="topmenu-bar">Sign Out</div></a>
+          {% else %}
+          <!--
+          <div id="menu-bar"><a href="{{ url_for('signup') }}">Sign Up</a></div>
+          <div id="menu-bar"><a href="{{ url_for('signin') }}">Sign In</a></div>
+            -->
+          {% endif %}
+    
+    </div>
+  </header>
+ 
+    <div >
+      {% block content %}
+      {% endblock %}
+    </div>
+ 
+  </body>
+</html>
